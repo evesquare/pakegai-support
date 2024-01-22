@@ -7,6 +7,7 @@ const config: DocsThemeConfig = {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta property="og:title" content="サポートセンター | Pakegai" />
       <meta property="og:description" content="Pakegaiの使い方やヘルプを探す" />
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     </>
   ),
   logo: (
@@ -38,6 +39,11 @@ const config: DocsThemeConfig = {
     </>
   ),
   logoLink: "/",
+  primaryHue: 300,
+  primarySaturation: {
+    light: 100,
+    dark: 70,
+  },
   chat: {
     link: "https://twitter.com/PakegaiBooks",
     icon: (
@@ -77,6 +83,9 @@ const config: DocsThemeConfig = {
         {timestamp.toLocaleTimeString("ja-JP")}
       </span>
     );
+  },
+  editLink: {
+    text: "",
   },
   docsRepositoryBase: "https://github.com/shuding/nextra-docs-template",
   footer: {

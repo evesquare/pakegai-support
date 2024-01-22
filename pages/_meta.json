@@ -1,15 +1,12 @@
 {
-  "index": "Introduction",
+  "index": "何かお手伝いできることはありますか？",
+  "getting-started": "Pakegai のはじめかた",
   "another": "Another Page",
   "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
   "contact": {
-    "title": "Contact ↗",
+    "title": "Pakegaiアプリ ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://pakegai.net",
     "newWindow": true
   }
 }
