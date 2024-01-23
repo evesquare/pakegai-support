@@ -10,6 +10,11 @@ const config: DocsThemeConfig = {
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     </>
   ),
+  useNextSeoProps() {
+    return {
+      titleTemplate: "%s | Pakegai",
+    };
+  },
   logo: (
     <>
       <svg
@@ -69,9 +74,12 @@ const config: DocsThemeConfig = {
     key: "2.0-release",
     text: (
       <a href="https://pakegai.net" target="_blank">
-        🛠️Pakegaiアプリ開発中!🌟 もっとみる →
+        🛠️Pakegaiアプリは現在開発中!🌟 もっとみる →
       </a>
     ),
+  },
+  toc: {
+    title: "目次",
   },
   feedback: {
     content: "このページの内容は役に立ちましたか？",
@@ -87,7 +95,6 @@ const config: DocsThemeConfig = {
   editLink: {
     text: "",
   },
-  docsRepositoryBase: "https://github.com/shuding/nextra-docs-template",
   footer: {
     text: (
       <>
