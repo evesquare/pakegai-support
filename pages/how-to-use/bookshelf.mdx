@@ -1,0 +1,34 @@
+import Image from 'next/image'
+import { Callout } from 'nextra/components'
+
+# 本棚のつかいかた
+
+<Callout type="info" emoji="🚨">
+  この機能を使うには、Googleアカウントでログインしている必要があります。
+  Googleアカウントについては、[Googleサインインについて](/how-to-use/google)をご覧ください。
+</Callout>
+
+## 本棚とは
+
+本棚は、読んだ本を記録したり読みたい本をまとめておくなど使い方は様々です。
+自分の本棚を作ってみましょう！🥳
+
+## 本棚の作り方
+
+「新しい本棚を作る」ボタンを押して名前を入力するだけで、本棚が作成されます。
+
+<Image src="/screens/bookshelf/index.webp" width={400} height={1200} />
+
+## 本棚の編集
+
+本棚の名前を変更したり、本棚内の本・本棚を削除することができます。
+上の歯車アイコンを押して、編集画面に移動してください。
+
+## 本棚の表示
+
+本棚の表示方法は、2種類あります。
+一覧表示と、本棚表示です。お好きな表示方法でご利用ください。
+<div style={{display: "flex", overflow: "auto"}}>
+  <Image src="/screens/bookshelf/detail-list.webp" width={200} height={600} />
+  <Image src="/screens/bookshelf/detail-list-grid.webp" width={200} height={600} />
+</div>

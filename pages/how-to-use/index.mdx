@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import { Callout } from 'nextra/components'
+import { Cards, Card } from 'nextra/components'
 
 # Pakegai のつかいかた
 
@@ -9,14 +11,17 @@ import Image from 'next/image'
 
 <Image src="/screens/tabbar.webp" width={400} height={300} alt="タブバー"/>
 
-- おすすめ画面のつかいかたは[コチラ](/how-to-use/recommend)をクリック
-- ホーム画面のつかいかたは[コチラ](#ホーム画面のつかいかた)をクリック
-- 本棚画面のつかいかたは[コチラ](/how-to-use/bookshelf)をクリック
+<Cards>
+  <Card icon={"👉"} title="おすすめ画面のつかいかた" href="/how-to-use/recommend" />
+  <Card icon={"👉"} title="ホーム画面のつかいかた" href="#ホーム画面のつかいかた" />
+  <Card icon={"👉"} title="本棚画面のつかいかた" href="/how-to-use/bookshelf" />
+</Cards>
 
 ## ホーム画面のつかいかた
 
-ホーム画面は Pakegai のメイン画面です🌟
-
+<Callout emoji="️💡">
+  ホーム画面は Pakegai のメイン画面です🌟
+</Callout>
 
 ホーム画面では、世界中にある本の一覧を見ることができます。
 画面上部の検索バーから、本のタイトルや著者名を入力することで、
