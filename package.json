@@ -2,6 +2,8 @@
   "name": "pakegai-support",
   "version": "0.0.1",
   "description": "Support Pakegai service",
+  "license": "UNLICENSED",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
